@@ -174,6 +174,9 @@ require get_template_directory() . '/classes/class-twentytwenty-non-latin-langua
 // Custom CSS.
 require get_template_directory() . '/inc/custom-css.php';
 
+// Load Jetpack compatibility file.
+require get_template_directory() . '/inc/jetpack.php';
+
 /**
  * Register and Enqueue Styles.
  */
